@@ -1,0 +1,120 @@
+/* Estilos para el logotipo */
+.logo {
+    width: 150px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Ajustes de navegación para que el logo esté bien alineado */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #004481;
+}
+
+
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #004481;
+    padding: 10px 0;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+ul.menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+ul.menu > li {
+    position: relative;
+    margin: 0 15px;
+}
+
+ul.menu > li > a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 15px;
+    display: block;
+}
+
+ul.menu > li:hover > a {
+    background-color: #003366;
+    transition: background-color 0.3s;
+}
+
+/* Submenú */
+ul.submenu {
+    display: none;
+    position: absolute;
+    background-color: #003366;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    top: 100%;
+    left: 0;
+}
+
+ul.menu li:hover ul.submenu {
+    display: block;
+}
+
+ul.submenu li a {
+    padding: 10px;
+    display: block;
+    color: white;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+ul.submenu li a:hover {
+    background-color: #001f3f;
+}
+
+/* Estilos para las secciones */
+section {
+    padding: 20px;
+    margin: 20px;
+    background-color: white;
+    border-radius: 8px;
+}
+
+h1, h2, h3 {
+    color: #004481;
+}
+
+p {
+    color: #333;
+}
+/* Estilos para el logotipo */
+.logo {
+    width: 150px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Ajustes de navegación para que el logo esté bien alineado */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #004481;
+}
